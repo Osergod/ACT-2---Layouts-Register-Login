@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="32dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menú d'Exercicis"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="50dp"
+        android:textColor="@color/black"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:src="@drawable/ay_mi_gatito" />
+
+    <Button
+        android:id="@+id/btnEx6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Exercici 6 (Toast)"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#8A1515"
+        android:textColor="@color/white"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btnEx7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Exercici 7 (Registre)"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#8A1515"
+        android:textColor="@color/white"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btnEx8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Exercici 8 (Login)"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#8A1515"
+        android:textColor="@color/white"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btnEx9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Exercici 9 (Matriculació)"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#8A1515"
+        android:textColor="@color/white"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btnEx10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Exercici 10 (Layouts)"
+        android:backgroundTint="#8A1515"
+        android:textColor="@color/white"
+        tools:ignore="HardcodedText" />
+
+</LinearLayout>
